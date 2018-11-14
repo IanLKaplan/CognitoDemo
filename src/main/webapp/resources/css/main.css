@@ -1,0 +1,84 @@
+
+#global {
+    text-align: left;
+    border: 1px solid #dedede;
+    background: #efefef;
+    width: 560px;
+    padding: 20px;
+    margin: 100px auto;
+}
+
+form {
+  font:100% verdana;
+  min-width: 500px;
+  max-width: 600px;
+  width: 560px;
+}
+
+form fieldset {
+  border-color: #bdbebf;
+  border-width: 3px;
+  margin: 0;
+}
+
+form label {font-weight:bold}
+
+legend {
+    font-size: 1.3em;
+}
+
+form label { 
+    width: 250px;
+    display: block;
+    float: left;
+    text-align: right;
+    padding: 2px;
+}
+
+#buttons {
+    text-align: right;
+}
+#errors {
+	color: red;
+}
+
+li {
+	color: black;	
+}
+
+.nav-tabs{
+  background-color:lightgrey;
+}
+
+.nav-tabs > li > a {
+  border: medium none;
+}
+
+.nav-tabs > li > a:hover {
+  background-color: slategrey;
+    border: medium none;
+    border-radius: 0;
+    color:white;
+}
+
+/* A button without a border or background */
+.unstyled-button {
+  border: none;
+  padding: 0;
+  background: none;
+}
+
+.verticalLine {
+  border-left: thin solid #888a85;
+}
+
+.inputError {
+	color:red;
+}
+
+.visible {
+  visibility: visible;
+}
+.invisible {
+  visibility: hidden;
+}

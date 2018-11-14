@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: CognitoDemo
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: iank
+Implementation-Vendor-Id: cognito_demo
+Build-Jdk: 1.8.0_172
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/CognitoDemo
+Created-By: Maven Integration for Eclipse
+
