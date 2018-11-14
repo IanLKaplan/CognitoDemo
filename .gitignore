@@ -1,6 +1,9 @@
 # Compiled class file
 *.class
 
+# Emacs temporary file
+*~
+
 # Log file
 *.log
 
