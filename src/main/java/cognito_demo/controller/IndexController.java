@@ -34,7 +34,9 @@ public class IndexController extends AuthenticationBase {
         String nextPage = "index";
         UserInfo info = (UserInfo)request.getSession().getAttribute(USER_SESSION_ATTR);
         if (info != null) {
+            // the user is already logged in, so redirect to the application page.
             nextPage = "application";
+            model.addAttribute(USER_SESSION_ATTR, info);
         }
         return new ModelAndView(nextPage, model); 
     }
